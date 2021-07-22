@@ -13,3 +13,13 @@ XState is the industry-leading tool for managing state with statecharts. Visuali
 #### Best practices built in
 
 Want to cut down on re-renders? Use the best of React and XState's `useSelector` to make your app performant and robust.
+
+### Things I plan to add
+
+#### Generators
+
+[React Boilerplate](https://github.com/react-boilerplate/react-boilerplate) uses [PlopJS](https://plopjs.com/) to write generators. It was one of the things that made me fall in love with DX, so I'd love to add it here.
+
+#### Tests
+
+I'd love to write a simple structure for unit testing your machines (if required), and also showing off [`@xstate/test`](https://xstate.js.org/docs/packages/xstate-test/).
