@@ -1,25 +1,25 @@
 > This documentation is nowhere near finished - but here's the [article that inspired this repo](https://dev.to/mpocock1/how-to-manage-global-state-with-xstate-and-react-3if5).
 
-## XState Next Boilerplate
+# XState Next Boilerplate
 
 The officially recommended way to get started with [XState](https://xstate.js.org/) and [Next.js](https://nextjs.org/).
 
-### Features
+## Features
 
-#### Predictable state management
+### Predictable state management
 
 XState is the industry-leading tool for managing state with statecharts. Visualise your app's logic before you even write a line of code.
 
-#### Best practices built in
+### Best practices built in
 
 Want to cut down on re-renders? Use the best of React and XState's `useSelector` to make your app performant and robust.
 
-### Things I plan to add
+## Things I plan to add
 
-#### Generators
+### Generators
 
 [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate) uses [PlopJS](https://plopjs.com/) to write generators. It was one of the things that made me fall in love with DX, so I'd love to add it here.
 
-#### Tests
+### Tests
 
 I'd love to write a simple structure for unit testing your machines (if required), and also showing off [`@xstate/test`](https://xstate.js.org/docs/packages/xstate-test/).
