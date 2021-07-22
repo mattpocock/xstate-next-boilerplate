@@ -16,7 +16,13 @@ Want to cut down on re-renders? Use the best of React and XState's `useSelector`
 
 ## Important Files
 
-### [`createXStateContext.ts`](./src/lib/createXStateContext.ts)
+#### [`createXStateContext.ts`](./src/lib/createXStateContext.ts)
+
+#### [`globalState.machine.ts`](./src/machines/globalState.machine.ts)
+
+#### [`_app.tsx`](./src/pages/_app.tsx)
+
+#### [`Layout.tsx`](./src/lib/Layout.tsx)
 
 ## Things I plan to add
 
