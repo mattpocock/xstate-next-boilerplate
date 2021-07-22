@@ -2,6 +2,15 @@
   "name": "xstate-next-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://github.com/mattpocock"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/mattpocock/xstate-next-boilerplate"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +18,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@xstate/react": "^1.5.1",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "xstate": "^4.23.0"
   },
   "devDependencies": {
     "@types/react": "17.0.14",
