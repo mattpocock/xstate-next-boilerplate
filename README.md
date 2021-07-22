@@ -14,6 +14,10 @@ XState is the industry-leading tool for managing state with statecharts. Visuali
 
 Want to cut down on re-renders? Use the best of React and XState's `useSelector` to make your app performant and robust.
 
+## Important Files
+
+### [`createXStateContext.ts`](./src/lib/createXStateContext.ts)
+
 ## Things I plan to add
 
 ### Generators
