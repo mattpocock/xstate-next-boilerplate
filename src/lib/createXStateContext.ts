@@ -1,18 +1,18 @@
 import { useSelector } from "@xstate/react";
 import { createContext, useContext as useReactContext } from "react";
-import { ActorRefFrom, StateFrom, StateMachine } from "xstate";
+import { InterpreterFrom, StateFrom, StateMachine } from "xstate";
 
 /**
  * Creates a global state wrapper you can use
  * to pass XState through your app
  */
 export function createXStateContext<
-  TMachine extends StateMachine<any, any, any>,
+  TMachine extends StateMachine<any, any ,any ,any ,any ,any ,any>,
 >(machine: TMachine) {
   /**
    * Creates a React context containing an ActorRef
    */
-  const context = createContext<ActorRefFrom<TMachine> | null>(null);
+  const context = createContext<InterpreterFrom<TMachine> | null>(null);
   /**
    * By default, the display name for this context
    * is the machine's id.
